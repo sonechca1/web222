@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>Tables</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://scs.senecac.on.ca/~wei.song/web222/css/normalize.css"/>
+	<link rel="stylesheet" href="https://scs.senecac.on.ca/~wei.song/web222/assignments/assign3.css"/>
+	<style>
+       thead {background-color:lightblue;}
+	   tbody {background-color:lightyellow;}
+	   tfoot {background-color:lightgreen;}
+    </style>
+</head>
+<body>
+	<header>
+		<h2>WEB222 Assignment 3 - HTML</h2>
+	</header>
+	<nav>
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="lists.html">List</a></li>
+			<li><a href="tables.html">Table</a></li>
+			<li><a href="images.html">Image</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="dom.html">DOM</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+	</nav>
+		
+	<section class=main>
+	<!-- Start your code here -->
+		<h2>HTML Tables</h2>
+		<table border=1 style="width: 70%; text-align:center;">
+			<caption>1st semester courses of CPA program.</caption>				
+			<tr>
+				<th>Semester</th>
+				<th colspan=2>Course Code and Name</th>
+			</tr>
+			<tr>
+				<td rowspan="5">1</td>
+				<td>APC100</td>
+				<td>Applied Professional Communciations</td>
+			</tr>
+			<tr>
+				<td>CPR101</td>
+				<td>Computer Principles for Programmers</td>
+			</tr>
+			<tr>
+				<td>EAC150</td>
+				<td>College English</td>
+			</tr>
+			<tr>
+				<td>IPC144</td>
+				<td>Introduction to Programing Using C</td>
+			</tr>
+			<tr>
+				<td>ULI101</td>
+				<td>Introduction to Unix/Linux and the Internet</td>
+			</tr>
+		</table>
+		<hr>
+		<table border=1 style="width: 70%; text-align:center;">
+			<caption>2nd semester courses of CPA program.</caption>
+			<thead>
+				<tr>
+					<th>Semester</th>
+					<th colspan=2>Course Code and Name</th>
+				</tr>
+			</thead>
+			<tr>
+				<td rowspan="4">2</td>
+				<td>DBS201</td>
+				<td>Introduction to Database Design and SQL</td>
+			</tr>
+			<tr>
+				<td>DCF255</td>
+				<td>Data Communications Fundamentals</td>
+			</tr>
+			<tr>
+				<td>OOP244</td>
+				<td>Introduction to Object Oriented Programming</td>
+			</tr>
+			<tr>
+				<td>WEB222</td>
+				<td>Web Programming Principles</td>
+			</tr>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td colspan=2 >plus: <strong>General Education</strong> Course</td>
+				</tr>
+			</tfoot>
+		</table>
+	<!-- End your code here - 2157 -->
+	</section>
+	<footer>
+		<div class="center">&copy; 2017 Student: Damian Murawiecki</div>
+	</footer>
+</body>
+</html>	  
